@@ -1,3 +1,5 @@
+import { Outlet } from "react-router-dom";
+import Footer from "../components/Footer";
 import Navber from "../components/Navber";
 
 
@@ -6,8 +8,17 @@ const MainLayout = () => {
         <div>
             {/* Navber section */}
             <Navber />
+
             {/* Dynamic seciton */}
+            <div className="min-h-screen container mx-auto px-20 py-12">
+          
+                <Outlet />
+
+            </div>
+
+
             {/* Footer section */}
+            <Footer />
             
         </div>
     );
