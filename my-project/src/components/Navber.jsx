@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navber = () => {
     return (
-        <div className="navbar bg-base-100 shadow-sm">
+        <div className="navbar bg-purple-800 ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -11,16 +11,16 @@ const Navber = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        className="menu menu-sm dropdown-content bg-purple-800 rounded-box z-1 mt-3 w-52 p-2 shadow text-white">
                         <Link to={'/'}>Home</Link>
                         <Link to={'/statistic'}>Statistic</Link>
                         <Link to={'/dashborad'}>Dashboard</Link>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">Gadget Heaven</a>
+                <Link className="btn btn-ghost text-2xl text-white">Gadget Heaven</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 gap-4 text-2xl">
+                <ul className="menu menu-horizontal px-1 gap-4 text-2xl text-white">
 
                     <Link to={'/'}>Home</Link>
                     <Link to={'/statistic'}>Statistic</Link>

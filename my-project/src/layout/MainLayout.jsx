@@ -5,22 +5,27 @@ import Navber from "../components/Navber";
 
 const MainLayout = () => {
     return (
-        <div>
+        <>
+        
+        <div className="px-10 py-10 ">
             {/* Navber section */}
             <Navber />
 
             {/* Dynamic seciton */}
-            <div className="min-h-[calc(100vh-370px)] container mx-auto px-20 py-12">
+            <div className="min-h-[calc(100vh-370px)] container mx-auto">
           
                 <Outlet />
 
             </div>
 
 
-            {/* Footer section */}
-            <Footer />
+            
             
         </div>
+        {/* Footer section */}
+        <Footer />
+        
+        </>
     );
 };
 
