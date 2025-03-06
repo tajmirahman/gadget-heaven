@@ -16,6 +16,10 @@ const routes=createBrowserRouter([
             loader:()=>fetch('../categories.json'),
             children:[
                 {
+                    path:'/',
+                    element: <GadgetCards />,
+                    loader:()=>fetch('../gadgets.json')
+                },{
                     path:'/category/:category',
                     element: <GadgetCards />,
                     loader:()=>fetch('../gadgets.json')

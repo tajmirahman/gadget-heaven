@@ -7,7 +7,7 @@ const Categories = () => {
 
     return (
         <>
-            <div className="text-center">
+            <div className="text-center mb-10">
                 <h1 className="text-3xl font-bold">Explore Cutting-Edge Gadgets</h1>
 
             </div>
