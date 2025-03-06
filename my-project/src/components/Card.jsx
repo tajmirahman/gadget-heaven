@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 
 const Card = ({ gadget }) => {
-    const {id,product_img,product_title,price}=gadget;
+    const {product_id,product_img,product_title,price}=gadget;
 
     
 
@@ -17,7 +17,7 @@ const Card = ({ gadget }) => {
             
             </div>
             <div className="py-3 ">
-                <Link to={`/details/${id}`}><button  className="btn bg-purple-800 text-white">Details</button></Link>
+                <Link to={`/details/${product_id}`}><button  className="btn bg-purple-800 text-white">Details</button></Link>
             </div>
         </div>
     );
