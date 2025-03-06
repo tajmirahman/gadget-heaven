@@ -137,7 +137,7 @@
             "3 USB 3.0 Ports",
             "SD Card Slot"
         ],
-        "availability": true,
+        "availability": false,
         "rating": 4.3
     },
     {
