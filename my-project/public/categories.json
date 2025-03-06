@@ -14,18 +14,14 @@
         "category": "Watch",
         "slug": "watch"
     },
+    
     {
         "id": 4,
-        "category": "Iphone",
-        "slug": "iphone"
-    },
-    {
-        "id": 5,
         "category": "Accessories",
         "slug": "accessories"
     },
     {
-        "id": 6,
+        "id": 5,
         "category": "Tabs",
         "slug": "tabs"
     }

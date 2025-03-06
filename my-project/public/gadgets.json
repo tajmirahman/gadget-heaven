@@ -1,0 +1,204 @@
+[
+    {
+        "product_id": "P001",
+        "product_title": "MacBook Pro 16-inch",
+        "product_img": "https://i.ibb.co.com/GfJj3CF3/still-life-books-versus-technology-23-2150062920.jpg",
+        "category": "Laptop",
+        "price": 2499,
+        "description": "Powerful performance with the M2 chip and stunning display.",
+        "specification": [
+            "M2 Pro Chip",
+            "16GB RAM",
+            "1TB SSD",
+            "Retina Display"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "P002",
+        "product_title": "samsung-galaxy-z-flip-3",
+        "product_img": "https://i.ibb.co.com/cX6PB2WT/samsung-galaxy-z-flip-3-mockup-opened-closed-1332-47670.jpg",
+        "category": "Phone",
+        "price": 1299,
+        "description": "Experience the ultimate smartphone with advanced features.",
+        "specification": [
+            "6.7-inch OLED",
+            "A17 Bionic Chip",
+            "Triple-camera system",
+            "5G connectivity"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "P003",
+        "product_title": "Iphone 15 Pro Max",
+        "product_img": "https://i.ibb.co.com/xN2ntMz/phone-with-colorful-background-colorful-design-back-915164-47736.jpg",
+        "category": "Phone",
+        "price": 1299,
+        "description": "Experience the ultimate smartphone with advanced features.",
+        "specification": [
+            "6.7-inch OLED",
+            "A17 Bionic Chip",
+            "Triple-camera system",
+            "5G connectivity"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "P004",
+        "product_title": "Apple Watch Series 9",
+        "product_img": "https://i.ibb.co.com/MkbSqvJB/rendering-smart-home-device-23-2151039302.jpg",
+        "category": "Watch",
+        "price": 399,
+        "description": "Track your health and stay connected on the go.",
+        "specification": [
+            "Heart Rate Monitor",
+            "GPS",
+            "Water Resistant",
+            "ECG app"
+        ],
+        "availability": false,
+        "rating": 4.7
+    },
+    {
+        "product_id": "P005",
+        "product_title": "AirPods Pro 2nd Gen",
+        "product_img": "https://i.ibb.co.com/3yRw1nBb/headphone-concept-illustration-114360-2222.jpg",
+        "category": "Accessories",
+        "price": 249,
+        "description": "Immersive sound with active noise cancellation.",
+        "specification": [
+            "Bluetooth 5.3",
+            "Noise Cancellation",
+            "Wireless Charging Case"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "P006",
+        "product_title": "Dell XPS 13",
+        "product_img": "https://i.ibb.co.com/5g0nY3Cq/office-desk-still-life-23-2148111405.jpg",
+        "category": "Laptop",
+        "price": 1199,
+        "description": "Compact and powerful ultrabook for daily tasks.",
+        "specification": [
+            "Intel i7",
+            "16GB RAM",
+            "512GB SSD",
+            "InfinityEdge Display"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "P007",
+        "product_title": "Samsung Galaxy S23",
+        "product_img": "https://i.ibb.co.com/39k8mZkm/samsung-galaxy-note-phone-mockup-editable-psd-146393-262.jpg",
+        "category": "Phone",
+        "price": 999,
+        "description": "A sleek phone with a powerful camera.",
+        "specification": [
+            "6.1-inch AMOLED",
+            "Snapdragon 8 Gen 2",
+            "Triple-camera setup"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": "P008",
+        "product_title": "Fitbit Sense 2",
+        "product_img": "https://i.ibb.co.com/Cp4wkmj3/rendering-smart-home-device-23-2151039302-1.jpg",
+        "category": "Watch",
+        "price": 299,
+        "description": "Advanced health tracking with stress management.",
+        "specification": [
+            "EDA Sensor",
+            "Sleep Tracking",
+            "GPS",
+            "Water Resistant"
+        ],
+        "availability": false,
+        "rating": 4.2
+    },
+    {
+        "product_id": "P009",
+        "product_title": "USB-C Hub Pro",
+        "product_img": "https://i.ibb.co.com/JFg8LmNM/headphones-black-silhouette-art-illustration-871209-10343.jpg",
+        "category": "Accessories",
+        "price": 79,
+        "description": "Expand your laptop's connectivity.",
+        "specification": [
+            "HDMI Port",
+            "3 USB 3.0 Ports",
+            "SD Card Slot"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": "P0010",
+        "product_title": "USB-C Hub Pro",
+        "product_img": "https://i.ibb.co.com/WW9YpSQd/red-computer-mouse-1260-13.jpg",
+        "category": "Accessories",
+        "price": 79,
+        "description": "Expand your laptop's connectivity.",
+        "specification": [
+            "HDMI Port",
+            "3 USB 3.0 Ports",
+            "SD Card Slot"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": "P0011",
+        "product_title": "Lenovo ThinkPad X1 Carbon",
+        "product_img": "https://i.ibb.co.com/s97vhND2/gray-laptop-with-blank-screen-white-table-photo-195114-9562.jpg",
+        "category": "Laptop",
+        "price": 1399,
+        "description": "Business-class laptop with high durability.",
+        "specification": [
+            "Intel i7",
+            "16GB RAM",
+            "1TB SSD",
+            "Carbon Fiber Build"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "P0012",
+        "product_title": "Google Pixel 8",
+        "product_img": "https://i.ibb.co.com/Zz2yB4kg/elegant-smartphone-composition-23-2149437106.jpg",
+        "category": "Phone",
+        "price": 899,
+        "description": "Clean Android experience with stellar camera.",
+        "specification": [
+            "6.3-inch OLED",
+            "Google Tensor G3",
+            "Dual-camera system"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "P0013",
+        "product_title": "Iphone 16 Pro Max",
+        "product_img": "https://i.ibb.co.com/5hdsKMrg/wireless-earbuds-with-neon-cyberpunk-style-lighting-23-2151074258.jpg",
+        "category": "Accessories",
+        "price": 899,
+        "description": "Clean Android experience with stellar camera.",
+        "specification": [
+            "6.3-inch OLED",
+            "Google Tensor G3",
+            "Dual-camera system"
+        ],
+        "availability": true,
+        "rating": 4.5
+    }
+]
