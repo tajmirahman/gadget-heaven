@@ -10,7 +10,7 @@ const Home = () => {
 
             {/* Category Sideber */}
             
-            <div className="mt-[220px] px-10">
+            <div className="mt-[220px]  lg:px-10">
             <Categories />
             </div>
 

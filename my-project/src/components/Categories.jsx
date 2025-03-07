@@ -3,7 +3,7 @@ import Category from "./Category";
 
 
 const Categories = () => {
-    const categories= useLoaderData();
+    const categories = useLoaderData();
 
     return (
         <>
@@ -12,11 +12,11 @@ const Categories = () => {
 
             </div>
 
-            <div className="flex gap-6">
+            <div className="md:flex gap-6">
 
                 <div>
                     {
-                      categories.map(category=> <Category key={category.id} category={category}  />)  
+                        categories.map(category => <Category key={category.id} category={category} />)
                     }
                 </div>
 
