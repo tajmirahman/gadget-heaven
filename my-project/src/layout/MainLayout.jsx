@@ -8,7 +8,7 @@ const MainLayout = () => {
         <>
         <Toaster />
         
-        <div className="px-10 py-10 ">
+        <div className="md:px-10 px-5 md:py-10 py-5 ">
             {/* Navber section */}
             <Navber />
 

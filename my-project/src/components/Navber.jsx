@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import { FiShoppingCart } from "react-icons/fi";
 
 
 const Navber = () => {
@@ -12,24 +13,28 @@ const Navber = () => {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-purple-800 rounded-box z-1 mt-3 w-52 p-2 shadow text-white">
-                        <Link to={'/'}>Home</Link>
-                        <Link to={'/statistic'}>Statistic</Link>
-                        <Link to={'/dashborad'}>Dashboard</Link>
+                        <NavLink to={'/'} className={({ isActive }) => `text-2xl ${isActive ? "text-warning" : "hover:text-warning"}`}>Home</NavLink>
+
+                        <NavLink to={'/statistic'} className={({ isActive }) => `text-2xl ${isActive ? "text-warning" : "hover:text-warning"}`}>Statistic</NavLink>
+
+                        <NavLink to={'/dashborad'} className={({ isActive }) => `text-2xl ${isActive ? "text-warning" : "hover:text-warning"}`}>Dashboard</NavLink>
                     </ul>
                 </div>
                 <Link className="btn btn-ghost text-2xl text-white">Gadget Heaven</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 gap-4 text-2xl text-white">
+                <ul className="menu menu-horizontal px-1 gap-4  text-white">
 
-                    <Link to={'/'}>Home</Link>
-                    <Link to={'/statistic'}>Statistic</Link>
-                    <Link to={'/dashborad'}>Dashboard</Link>
+                    <NavLink to={'/'} className={({ isActive }) => `text-2xl ${isActive ? "text-warning" : "hover:text-warning"}`}>Home</NavLink>
+
+                    <NavLink to={'/statistic'} className={({ isActive }) => `text-2xl ${isActive ? "text-warning" : "hover:text-warning"}`}>Statistic</NavLink>
+
+                    <NavLink to={'/dashborad'} className={({ isActive }) => `text-2xl ${isActive ? "text-warning" : "hover:text-warning"}`}>Dashboard</NavLink>
 
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn">Cart</a>
+            <div className="navbar-end text-2xl">
+                <a className="text-white flex items-center">Cart<FiShoppingCart /></a>
             </div>
         </div>
     );
