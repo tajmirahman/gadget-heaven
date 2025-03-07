@@ -30,7 +30,7 @@ const GadgetCards = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4 bg-gray-200 p-3">
             
             {
-                gadget.length >0 ?(gadget.map(gadget=> <Card key={gadget.id} gadget={gadget} />))
+                gadget.length >0 ?(gadget.map(gadget=> <Card key={gadget.product_id} gadget={gadget} />))
                 :<h1 className="text-2xl font-bold text-red-600 ">Category has no found</h1>
             }
         </div>

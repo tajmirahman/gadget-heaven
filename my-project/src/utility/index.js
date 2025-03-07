@@ -39,9 +39,6 @@ const removeFromCart=(product_id)=>{
     const remaining=gadget.filter(gad=> gad.product_id != product_id);
     localStorage.setItem('gadget',JSON.stringify(remaining));
     toast.success('Product delete from dashboard !!');
-
-
-
 }
 
 

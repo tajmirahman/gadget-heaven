@@ -33,7 +33,8 @@ const routes=createBrowserRouter([
         },
         {
             path:'/dashborad',
-            element: <Dashboard />
+            element: <Dashboard />,
+  
         },
         {
             path:'/details/:id',
