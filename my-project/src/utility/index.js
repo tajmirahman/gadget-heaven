@@ -1,3 +1,4 @@
+import { Warning } from 'postcss';
 import toast from 'react-hot-toast';
 
 /// get all data
@@ -31,9 +32,17 @@ const addToLocalStorage=(data)=>{
 
 }
 
-
-
 //remove all data
 
+const removeFromCart=(product_id)=>{
+    const gadget=getToLocalStorage();
+    const remaining=gadget.filter(gad=> gad.product_id != product_id);
+    localStorage.setItem('gadget',JSON.stringify(remaining));
+    toast.success('Product delete from dashboard !!');
 
-export {addToLocalStorage,getToLocalStorage}
+
+
+}
+
+
+export {addToLocalStorage,getToLocalStorage,removeFromCart}
