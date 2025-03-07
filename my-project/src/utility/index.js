@@ -36,4 +36,4 @@ const addToLocalStorage=(data)=>{
 //remove all data
 
 
-export {addToLocalStorage}
+export {addToLocalStorage,getToLocalStorage}
