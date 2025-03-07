@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import { useLoaderData, useLocation, useParams } from "react-router-dom";
+import { useLoaderData, useParams } from "react-router-dom";
+import { addToLocalStorage } from "../utility";
 
 
 
 
 const GadgetDetails = () => {
-    const pathname= useLocation();
-    console.log(pathname);
+
     const data = useLoaderData();
     const { id } = useParams();
     const [gadget, setGadget] = useState({});
@@ -20,7 +20,9 @@ const GadgetDetails = () => {
         }
     }, [data, id]);
 
-
+    const handleAddToCart=(gadget)=>{
+        addToLocalStorage(gadget)
+    }
 
     const { product_img, product_title, price, description, specification, availability } = gadget;
 
@@ -54,7 +56,7 @@ const GadgetDetails = () => {
                             <p ><span className="font-bold">Specification:</span>{specification && specification.map((spec, idx) => <li key={idx}>{spec}</li>)}</p>
 
 
-                            <button className="btn bg-purple-600 text-white">Add To Cart</button>
+                            <button onClick={()=>handleAddToCart(gadget)} className="btn bg-purple-600 text-white">Add To Cart</button>
 
                         </div>
 
