@@ -1,3 +1,5 @@
+import toast from 'react-hot-toast';
+
 /// get all data
 
 const getToLocalStorage=()=>{
@@ -17,8 +19,16 @@ const getToLocalStorage=()=>{
 const addToLocalStorage=(data)=>{
 
     const gadget=getToLocalStorage();
+    const isExit= gadget.find(gad=> gad.product_id == data.product_id);
+    if(isExit){
+        toast.error('Product already added to dashboard!');
+        return;
+    }
+    
     gadget.push(data);
     localStorage.setItem('gadget',JSON.stringify(gadget));
+    toast.success('Product Successfully add to Dashboard!');
+
 }
 
 

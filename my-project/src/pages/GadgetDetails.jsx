@@ -21,7 +21,7 @@ const GadgetDetails = () => {
     }, [data, id]);
 
     const handleAddToCart=(gadget)=>{
-        addToLocalStorage(gadget)
+        addToLocalStorage(gadget);
     }
 
     const { product_img, product_title, price, description, specification, availability } = gadget;

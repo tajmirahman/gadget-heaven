@@ -1,11 +1,12 @@
 import { Outlet } from "react-router-dom";
 import Footer from "../components/Footer";
 import Navber from "../components/Navber";
-
+import  { Toaster } from 'react-hot-toast';
 
 const MainLayout = () => {
     return (
         <>
+        <Toaster />
         
         <div className="px-10 py-10 ">
             {/* Navber section */}
